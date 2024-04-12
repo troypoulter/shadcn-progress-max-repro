@@ -26,11 +26,11 @@ export default function Home() {
           <Link
             target="_blank"
             rel="noreferrer"
-            href="https://github.com/shadcn-ui/ui/pulls/123"
+            href="https://github.com/shadcn-ui/ui/pull/3471"
             className={cn(buttonVariants())}
           >
             <Icons.gitHub className="mr-2 h-4 w-4" />
-            GitHub PR (#123)
+            GitHub PR (#3471)
           </Link>
           <Link
             target="_blank"
