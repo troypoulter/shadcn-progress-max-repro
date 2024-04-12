@@ -45,6 +45,16 @@ export default function Home() {
       </PageHeader>
       <Separator />
       <Reproduction />
+      <p className="flex justify-center text-center text-sm leading-loose text-muted-foreground md:text-left">
+        <a
+          href="https://github.com/troypoulter/shadcn-progress-max-repro"
+          target="_blank"
+          rel="noreferrer"
+          className="font-medium underline underline-offset-4"
+        >
+          GitHub source for this reproduction is available here
+        </a>
+      </p>
     </main>
   );
 }
