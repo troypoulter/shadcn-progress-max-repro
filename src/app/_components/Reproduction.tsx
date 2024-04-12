@@ -57,6 +57,15 @@ export function Reproduction() {
           </span>
           <ProgressBefore value={progress} max={150} />
           <span className="flex justify-center font-mono">{progress}/150</span>
+          <Separator />
+          <span className="text-sm font-semibold">
+            Scenario 4: <code>max</code> set to 20
+          </span>
+          <span className="text-sm">
+            <code>{`<Progress value={${progress}} max={20} />`}</code>
+          </span>
+          <ProgressBefore value={progress} max={20} />
+          <span className="flex justify-center font-mono">{progress}/20</span>
         </CardContent>
       </Card>
       <Card className="min-w-[300px] bg-green-100">
@@ -94,6 +103,15 @@ export function Reproduction() {
           </span>
           <ProgressAfter value={progress} max={150} />
           <span className="flex justify-center font-mono">{progress}/150</span>
+          <Separator />
+          <span className="text-sm font-semibold">
+            Scenario 4: <code>max</code> set to 20
+          </span>
+          <span className="text-sm">
+            <code>{`<Progress value={${progress}} max={20} />`}</code>
+          </span>
+          <ProgressAfter value={progress} max={20} />
+          <span className="flex justify-center font-mono">{progress}/20</span>
         </CardContent>
       </Card>
     </div>
